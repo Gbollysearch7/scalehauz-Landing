@@ -48,17 +48,17 @@ export const Navbar = () => {
 
                     {/* Desktop Menu */}
                     <div className="hidden md:flex items-center gap-6 border-l border-white/20 pl-6">
-                        <Link href="#services" className="text-xs font-medium text-white/60 hover:text-white uppercase tracking-widest transition-colors">
+                        <Link href="/services" className="text-xs font-medium text-white/60 hover:text-white uppercase tracking-widest transition-colors">
                             Services
                         </Link>
-                        <Link href="#industries" className="text-xs font-medium text-white/60 hover:text-white uppercase tracking-widest transition-colors">
-                            Industries
+                        <Link href="/work" className="text-xs font-medium text-white/60 hover:text-white uppercase tracking-widest transition-colors">
+                            Work
                         </Link>
-                        <Link href="#why-us" className="text-xs font-medium text-white/60 hover:text-white uppercase tracking-widest transition-colors">
-                            Why Us
+                        <Link href="/pricing" className="text-xs font-medium text-white/60 hover:text-white uppercase tracking-widest transition-colors">
+                            Pricing
                         </Link>
-                        <Link href="#results" className="text-xs font-medium text-white/60 hover:text-white uppercase tracking-widest transition-colors">
-                            Results
+                        <Link href="/enterprise" className="text-xs font-medium text-white/60 hover:text-white uppercase tracking-widest transition-colors">
+                            Enterprise
                         </Link>
                     </div>
 
@@ -108,7 +108,7 @@ export const Navbar = () => {
                         >
                             <nav className="flex flex-col gap-1">
                                 <Link
-                                    href="#services"
+                                    href="/services"
                                     onClick={handleLinkClick}
                                     className="flex items-center justify-between py-4 border-b border-white/10 text-white/80 hover:text-white transition-colors"
                                 >
@@ -116,39 +116,31 @@ export const Navbar = () => {
                                     <span className="material-symbols-outlined text-white/40">arrow_forward</span>
                                 </Link>
                                 <Link
-                                    href="#industries"
+                                    href="/work"
                                     onClick={handleLinkClick}
                                     className="flex items-center justify-between py-4 border-b border-white/10 text-white/80 hover:text-white transition-colors"
                                 >
-                                    <span className="text-lg font-medium">Industries</span>
+                                    <span className="text-lg font-medium">Work</span>
                                     <span className="material-symbols-outlined text-white/40">arrow_forward</span>
                                 </Link>
                                 <Link
-                                    href="#why-us"
+                                    href="/pricing"
                                     onClick={handleLinkClick}
                                     className="flex items-center justify-between py-4 border-b border-white/10 text-white/80 hover:text-white transition-colors"
                                 >
-                                    <span className="text-lg font-medium">Why Us</span>
+                                    <span className="text-lg font-medium">Pricing</span>
                                     <span className="material-symbols-outlined text-white/40">arrow_forward</span>
                                 </Link>
                                 <Link
-                                    href="#process"
+                                    href="/enterprise"
                                     onClick={handleLinkClick}
                                     className="flex items-center justify-between py-4 border-b border-white/10 text-white/80 hover:text-white transition-colors"
                                 >
-                                    <span className="text-lg font-medium">Process</span>
+                                    <span className="text-lg font-medium">Enterprise</span>
                                     <span className="material-symbols-outlined text-white/40">arrow_forward</span>
                                 </Link>
                                 <Link
-                                    href="#results"
-                                    onClick={handleLinkClick}
-                                    className="flex items-center justify-between py-4 border-b border-white/10 text-white/80 hover:text-white transition-colors"
-                                >
-                                    <span className="text-lg font-medium">Results</span>
-                                    <span className="material-symbols-outlined text-white/40">arrow_forward</span>
-                                </Link>
-                                <Link
-                                    href="#faq"
+                                    href="/#faq"
                                     onClick={handleLinkClick}
                                     className="flex items-center justify-between py-4 text-white/80 hover:text-white transition-colors"
                                 >
