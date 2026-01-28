@@ -12,12 +12,12 @@ import Link from "next/link";
 const plans = [
     {
         name: "Growth",
-        price: "$5,000",
+        price: "$10,000",
         period: "/month",
         description: "For startups ready to scale",
         features: [
             "1 primary channel (Meta or Google)",
-            "Up to $25k ad spend management",
+            "Up to $50k ad spend management",
             "Bi-weekly strategy calls",
             "Monthly performance reports",
             "Basic creative support",
@@ -28,12 +28,12 @@ const plans = [
     },
     {
         name: "Scale",
-        price: "$10,000",
+        price: "$15,000",
         period: "/month",
         description: "For companies accelerating growth",
         features: [
             "2-3 channels (Meta, Google, TikTok)",
-            "Up to $75k ad spend management",
+            "Up to $100k ad spend management",
             "Weekly strategy calls",
             "Real-time dashboard access",
             "AI content generation",
@@ -46,8 +46,8 @@ const plans = [
     },
     {
         name: "Enterprise",
-        price: "Custom",
-        period: "",
+        price: "$20,000",
+        period: "/month",
         description: "For high-growth organizations",
         features: [
             "Unlimited channels",
