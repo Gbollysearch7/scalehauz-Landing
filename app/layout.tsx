@@ -10,8 +10,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Scale Hauz - Minimalist Monolith",
-  description: "AI-Powered Marketing Agency",
+  title: "ScaleHauz - AI-Powered Growth Marketing",
+  description: "AI-Powered Marketing Agency. We engineer growth systems that scale your business predictably.",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
