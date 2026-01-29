@@ -103,6 +103,22 @@ const services = [
         ],
         metrics: { value: "3x", label: "CTR Improvement" },
         icon: "brush"
+    },
+    {
+        id: "social-media",
+        name: "Social Media Marketing",
+        tagline: "Community & Engagement",
+        description: "Build communities, not just followers. Our social strategies create genuine engagement that translates into brand loyalty and business growth.",
+        features: [
+            "Platform strategy",
+            "Content creation & scheduling",
+            "Community management",
+            "Influencer partnerships",
+            "Social advertising",
+            "Analytics & reporting"
+        ],
+        metrics: { value: "285%", label: "Engagement Growth" },
+        icon: "share"
     }
 ];
 
@@ -112,9 +128,22 @@ export default function ServicesPage() {
             <Navbar />
             <main className="relative pt-20">
                 {/* Hero Section */}
-                <section className="py-16 sm:py-24 md:py-32 px-4 sm:px-6">
-                    <div className="max-w-7xl mx-auto">
+                <section className="relative py-16 sm:py-24 md:py-32 px-4 sm:px-6 overflow-hidden">
+                    <div className="absolute inset-0 z-0">
+                        <img
+                            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=3840&q=80"
+                            alt="Services"
+                            className="w-full h-full object-cover opacity-10"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-b from-black via-black/80 to-black" />
+                    </div>
+                    <div className="max-w-7xl mx-auto relative z-10">
                         <Reveal>
+                            <nav className="flex items-center gap-2 mb-8 font-mono text-[10px] sm:text-xs uppercase tracking-wider">
+                                <Link href="/" className="text-white/30 hover:text-white/60 transition-colors">Home</Link>
+                                <span className="text-white/20">/</span>
+                                <span className="text-white/60">Services</span>
+                            </nav>
                             <span className="font-mono text-[10px] sm:text-xs text-white/40 uppercase tracking-[0.2em] mb-4 block">
                                 Services
                             </span>
